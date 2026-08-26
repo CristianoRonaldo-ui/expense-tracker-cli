@@ -11,6 +11,7 @@ A simple command-line tool for tracking personal expenses. Add expenses, list th
 - Data is stored locally in a JSON file (`data/expenses.json`)
 
 ## Project Structure
+```
 expense-tracker-cli/
   src/expense_tracker/
     models.py      - Expense creation and validation
@@ -19,6 +20,7 @@ expense-tracker-cli/
     cli.py         - Command-line interface (argparse)
   tests/           - pytest test suite
   data/            - generated expenses.json (not tracked in git)
+```
 
 ## Setup
 
