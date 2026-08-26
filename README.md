@@ -12,13 +12,13 @@ A simple command-line tool for tracking personal expenses. Add expenses, list th
 
 ## Project Structure
 expense-tracker-cli/
-├── src/expense_tracker/
-│ ├── models.py # Expense creation and validation
-│ ├── storage.py # Read/write expenses to a JSON file
-│ ├── operations.py # Business logic: add, summarize, delete
-│ └── cli.py # Command-line interface (argparse)
-├── tests/ # pytest test suite
-└── data/ # generated expenses.json (not tracked in git)
+  src/expense_tracker/
+    models.py      - Expense creation and validation
+    storage.py     - Read/write expenses to a JSON file
+    operations.py  - Business logic: add, summarize, delete
+    cli.py         - Command-line interface (argparse)
+  tests/           - pytest test suite
+  data/            - generated expenses.json (not tracked in git)
 
 ## Setup
 
